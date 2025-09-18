@@ -1,0 +1,9 @@
+/* Tailwind base layers - these must be present for tailwind to work */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Simple custom styles for demonstration */
+body {
+  @apply bg-gray-50 text-gray-800;
+}
